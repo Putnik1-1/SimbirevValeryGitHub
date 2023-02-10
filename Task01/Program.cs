@@ -5,9 +5,9 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if (a == b * b)
 {
-    Console.WriteLine("Первое число, квадрат  второго");
+    Console.WriteLine($"{a}, квадрат {b}");
 }
 else
 {
-    Console.WriteLine("Первое число, не квадрат второго");
+    Console.WriteLine($"{a}, не квадрат {b}");
 }
