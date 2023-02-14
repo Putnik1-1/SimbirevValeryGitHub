@@ -7,15 +7,13 @@
 // 8,9 -> нет
 
 Console.WriteLine("Введите число 1: ");
-int a = Convert.ToInt32(Console.ReadLine());
+int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число 2: ");
-int b = Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
 
-if (a == b * b)
+bool x2(int a, int b)
 {
-    Console.WriteLine($"{a}, квадрат {b}");
+    return a == b * b || b == a * a;
 }
-else
-{
-    Console.WriteLine($"{a}, не квадрат {b}");
-}
+if (x2(numberA, numberB)) Console.WriteLine($"{numberA}, квадрат {numberB}");
+else Console.WriteLine($"{numberA}, не квадрат {numberB}");
