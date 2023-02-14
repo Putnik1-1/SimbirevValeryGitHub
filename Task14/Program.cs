@@ -10,12 +10,12 @@ int num = Convert.ToInt32(Console.ReadLine());
 int num1 = 7;
 int num2 = 23;
 
-bool Multiplicity(int number)
+bool Multiplicity(int number, int number1, int number2)
 {
-    return num % num1 == 0 && num % num2 == 0;
+    return number % number1 == 0 && number % number2 == 0;
 }
 
-if (Multiplicity(num))
+if (Multiplicity(num, num1, num2))
     Console.WriteLine($"Введенное число {num} кратно {num1} и {num2}");
 else Console.WriteLine($"Введенное число {num} не кратно {num1} и {num2}");
 
