@@ -11,9 +11,9 @@ Console.Write($"Диапазон координат {quater}");
 
 string Quarter(int numberA)
 {
-    if (numberA == 1) return "x > 0 && y > 0";
-    if (numberA == 2) return "x < 0 && y > 0";
-    if (numberA == 3) return "x < 0 && y < 0";
-    if (numberA == 4) return "x > 0 && y < 0";
+    if (numberA == 1) return "x > 0, y > 0";
+    if (numberA == 2) return "x < 0, y > 0";
+    if (numberA == 3) return "x < 0, y < 0";
+    if (numberA == 4) return "x > 0, y < 0";
     return "не соответсвует номеру четверти";
 }

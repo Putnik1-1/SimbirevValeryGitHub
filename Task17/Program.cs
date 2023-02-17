@@ -9,7 +9,7 @@ Console.Write("Введите координаты точки y: ");
 int yc = Convert.ToInt32(Console.ReadLine());
 
 int quater = Quarter(xc, yc);
-string result = quater > 0
+string result = quater > 0 // условие ? значение : значение
                 ? $"Указанные координаты соответсвуют четверти {quater}"
                 : "Введены некоректные координаты";
 Console.Write(result);
