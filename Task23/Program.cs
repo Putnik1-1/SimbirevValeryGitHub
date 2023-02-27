@@ -5,7 +5,6 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-bool not = true;
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Таблица кубов чисел от 1 до " + number);
