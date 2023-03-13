@@ -6,10 +6,10 @@
 // M = 4; N = 8. -> 30
 
 
-Console.WriteLine("Введите начальное число M:");
+Console.Write("Введите натуральное число M: ");
 int numberM = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Введите начальное число M:");
+Console.Write("Введите натуральное число N: ");
 int numberN = int.Parse(Console.ReadLine());
 
 ///Метод нахождения суммы натуральных элементов в промежутке от M до N
